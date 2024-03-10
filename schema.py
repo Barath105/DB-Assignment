@@ -31,6 +31,6 @@ class Product(Base):
 
     category = relationship("ProductCategory")
 
-# Example usage:
+
 engine = create_engine('sqlite:///product.db')
 Base.metadata.create_all(engine)
