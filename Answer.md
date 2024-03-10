@@ -1,7 +1,7 @@
-<!-- 1st Question - Explain the relationship between the "Product" and "Product_Category" entities from the above diagram. -->
+1st Question - Explain the relationship between the "Product" and "Product_Category" entities from the above diagram.
 
 
-<!-- Solution: -->
+ Solution:
 
 
 The relationship between the "Product" and "Product_Category" entities is one of association and categorization.
@@ -15,10 +15,10 @@ Many-to-One Perspective:
 From the perspective of "Product_Category", there can be many products belonging to the same category. This allows for grouping similar products together under a common category, which can aid in organization and navigation within a system. This relationship enables efficient organization and retrieval of products based on their respective categories. 
 
 
-<!-- 2nd Question - How could you ensure that each product in the "Product" table has a valid category assigned to it? -->
+2nd Question - How could you ensure that each product in the "Product" table has a valid category assigned to it?
 
 
-<!-- Solution: -->
+Solution:
 
 To ensure that each product in the "Product" table has a valid category assigned to it, you can enforce referential integrity using foreign key constraints in your database schema.
 
